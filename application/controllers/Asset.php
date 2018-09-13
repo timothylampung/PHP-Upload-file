@@ -21,6 +21,10 @@ class Asset extends CI_Controller
         $this->load->view("dashboard/dashboard", $data);
     }
 
+    public function sign_in(){
+        $this->load->view("auth/login");
+    }
+
 
 
     public function do_upload(){
